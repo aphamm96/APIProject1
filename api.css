@@ -1,0 +1,18 @@
+:root{
+    --fontType: 'Press Start 2P', cursive;
+}
+
+body{
+    background-color: lightgray;
+    font-family: var(--fontType);
+}
+
+section{
+    background-color: darkgray;
+    border: gray solid 3px;
+}
+
+img{
+    background-color: slategray;
+    border-radius: 5%;
+}

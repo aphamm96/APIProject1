@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <link href="api.css" rel="stylesheet">
+    <title>Pokemon API</title>
+</head>
+<body>
+
+    <h1>Pokemon API Search Engine</h1>
+    <div class="wrapper">
+        <div class="searchForm">
+            <form>
+                <p>
+                    <label for="category">Select a category to search:</label>
+                    <select name="category" id="category">
+                        <option value="ability">ability</option>
+                        <option value="generation">generation</option>
+                        <option value="item">item</option>
+                        <option value="move">move</option>
+                        <option value="nature">nature</option>
+                        <option value="pokemon">pokemon</option>
+                        <option value="region">region</option>
+                        <option value="type">type</option>
+                        <option value="version">version</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="search">Enter your search term:</label>
+                    <input type="text" id="search" class="search" placeholder="e.g. 'armaldo'" required>
+                </p>
+                <p>
+                    <button class="submit">Begin search</button>
+                </p>
+            </form>
+            <div class="results">
+                <section>
+
+                </section>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="api.js"></script>
+</body>
+</html>
